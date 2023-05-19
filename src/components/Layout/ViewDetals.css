@@ -1,0 +1,194 @@
+h1, h2, h3, div {
+    color: white;
+}
+
+.ptitle {
+  font-weight: 800;
+  margin-bottom: 0;
+  color: white;
+}
+
+.pbrand {
+  margin: 0;
+  font-weight: 500;
+  color: gray;
+}
+
+.pcategory {
+  color: white;
+  word-spacing: 10px;
+}
+
+.prating {
+  margin: 0;
+  font-weight: bold;
+  color: white;
+}
+
+.prating::after {
+  content: " ⭐";
+  font-size: 20px;
+}
+
+.pdescription {
+  font-size: 15pt;
+  font-weight: 300;
+}
+
+.pthumbnail {
+  min-width: 40%;
+  max-width: fit-content;
+  max-height: 300px;
+}
+
+.pstock {
+  color: white;
+}
+
+.pimage {
+  height: 200px;
+  margin: 20px;
+}
+
+.pbutton {
+  width: 100px !important;
+  height: 50px !important;
+}
+
+.pimage-container {
+  overflow-x: scroll;
+  justify-content: start;
+  background-color: #2F2B3B;
+  border-radius: 15px;
+  min-height: 240px;
+}
+
+.pimage-container::-webkit-scrollbar {
+  display: none;
+}
+
+.around {
+  justify-content: space-around;
+}
+
+.between {
+  justify-content: space-between;
+}
+
+.evenly {
+  justify-content: space-evenly;
+}
+
+.end {
+  justify-content: flex-end;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.c-gap {
+  column-gap: 20px;
+}
+
+.r-gap {
+  row-gap: 20px;
+}
+
+.j-center {
+  justify-content: center;
+}
+
+.a-center {
+  align-items: center;
+}
+
+
+.center {
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+  
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    background-color: #3F3A4E;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    width: 70%;
+    margin: 40px 0;
+    row-gap: 20px;
+  }
+
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 30;
+  }
+
+  .deleteButton {
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 24pt;
+    color: white;
+    background-color: #ff004c;
+    padding: 20px 15px 20px 15px;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .editButton {
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 24pt;
+    color: white;
+    background-color: #31c0d3;
+    padding: 20px 15px 20px 15px;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 127px;
+  }
+
+  .back {
+    position: fixed;
+    top: 5%;
+    left: 2.5%;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 20%;
+    box-shadow: 0 4px 6px -1px #0000001a;
+    background-color: #2F2B3B;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .back:hover {
+    background-color: #a2d331;
+  }
+  
+  .Icon {
+    font-size: 2.5rem;
+    color: white;
+  }

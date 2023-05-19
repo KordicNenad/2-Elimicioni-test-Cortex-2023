@@ -1,0 +1,14 @@
+.card {
+    padding: 0.2rem;
+    box-shadow: 0 4px 6px -1px #0000001a;
+    border-radius: 14px;
+    background-color: #2F2B3B;
+    overflow: hidden;
+
+    flex: 1;
+  object-fit: cover;
+  object-position: center;
+  margin-bottom: 5px;
+  max-height: 100%
+  }
+  

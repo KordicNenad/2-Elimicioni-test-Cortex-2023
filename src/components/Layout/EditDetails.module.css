@@ -1,0 +1,164 @@
+.popupOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+  }
+  
+  .popupContent {
+    background-color: #3F3A4E;
+    padding: 20px;
+    border-radius: 18px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 31;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    z-index: 100;
+  }
+
+ 
+
+  .closeButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 100;
+  }
+  
+  input {
+    width: 98.3%;
+    height: 35px;
+    z-index: 100;
+  }
+  
+  textarea {
+    min-width: 98.3%;
+    max-width: 98.3%;
+    min-height: 200px;
+    padding: 5px;
+    resize: none;
+    z-index: 100;
+  }
+  
+  label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 14pt;
+    color: white;
+    z-index: 100;
+  }
+  
+  input,
+  textarea {
+    border-color: rgb(0, 0, 0);
+    color: white;
+    background-color: #2F2B3B;
+    border-radius: 10px;
+    border-width: 1px;
+    font-size: 12pt;
+    margin-top: 2.5px;
+    z-index: 100;
+    
+  }
+
+  input,
+  textarea:focus {
+    outline: 2px solid rgba(0, 0, 0, 0);
+    z-index: 100;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2.5px;
+    margin-bottom: 15px;
+    z-index: 100;
+  }
+  
+  .row > div {
+    flex: 1;
+    z-index: 100;
+    
+  }
+  
+  .description {
+    margin-top: 10px;
+    z-index: 100;
+  }
+  
+  button[type="submit"],
+  button {
+    margin-top: 10px;
+    z-index: 100;
+  }
+  
+
+  .leftDiv {
+    justify-self: flex-start;
+    margin-right: 10px;
+    z-index: 100;
+  }
+  
+  .rightDiv {
+    justify-self: flex-end;
+    z-index: 100;
+  }
+
+
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2.5px;
+    margin-bottom: 15px;
+    margin-left: 25%;
+    margin-right: 25%;
+    z-index: 100;
+  }
+
+  .submitButton {
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 24pt;
+    color: white;
+    background-color: #31d36f;
+    padding: 20px 15px 20px 15px;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    z-index: 100;
+  }
+
+  .cancelButton {
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 24pt;
+    color: white;
+    background-color: #ff004c;
+    padding: 20px 15px 20px 15px;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    z-index: 100;
+  }
+
+  .edit {
+    z-index: 100;
+  }
+
+  .center {
+    z-index: 100;
+  }
+
+  .content {
+    z-index: 100;
+  }

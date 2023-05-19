@@ -1,0 +1,37 @@
+.list {
+  margin-left: 10%;
+  margin-right: 10%;
+  line-height: 0;
+  -webkit-column-count: 5;
+  -webkit-column-gap: 5px;
+  -moz-column-count: 5;
+  -moz-column-gap: 5px;
+  column-count: 3;
+  column-gap: 5px;
+}
+
+.spinner {
+  margin-top: 30px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 100px;
+}
+
+.loadMoreButton {
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 24pt;
+  color: white;
+  background-color: #31d36f;
+  padding: 20px 15px 20px 15px;
+  border: 0;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.ButtonFlex {
+  display: flex;
+  justify-content: center;
+}

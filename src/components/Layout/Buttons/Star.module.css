@@ -1,0 +1,109 @@
+.overlay {
+    list-style: none;
+    position: fixed;
+    bottom: 5%;
+    right: 2.5%;
+    width: 5rem;
+    height: 5rem;
+    z-index: 20;
+    cursor: pointer;
+  }
+
+.overlay:hover {
+    height: 17rem;
+}
+
+.overlayIsDelete {
+    list-style: none;
+    position: fixed;
+    bottom: 5%;
+    right: 2.5%;
+    width: 5rem;
+    height: 5rem;
+    z-index: 20;
+    cursor: pointer;
+  }
+
+
+.star {
+    position: fixed;
+    bottom: 5%;
+    right: 2.5%;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 20%;
+    box-shadow: 0 4px 6px -1px #0000001a;
+    background-color: #2F2B3B;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .starIcon {
+    font-size: 2.5rem;
+    color: white;
+  }
+  
+
+
+
+  .starHover {
+    position: fixed;
+    bottom: 5%;
+    right: 2.5%;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 20%;
+    box-shadow: 0 4px 6px -1px #0000001a;
+    background-color: #ff0000;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .boxDelete {
+    position: fixed;
+    bottom: 15%;
+    right: 3%;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 20%;
+    box-shadow: 0 4px 6px -1px #0000001a;
+    background-color: #2F2B3B;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .boxDelete:hover {
+    background-color: #ff004c;
+  }
+
+
+  .boxAdd {
+    position: fixed;
+    bottom: 23%;
+    right: 3%;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 20%;
+    box-shadow: 0 4px 6px -1px #0000001a;
+    background-color: #2F2B3B;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .boxAdd:hover {
+    background-color: #31d36f;
+  }
+
+  .icon {
+    font-size: 2.5rem;
+    color: white;
+  }
