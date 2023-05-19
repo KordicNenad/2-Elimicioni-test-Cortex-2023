@@ -1,3 +1,3 @@
 # Cortex Academy 2023
-# Nenad Kordic
+Nenad Kordic
 # Eliminacioni Test
